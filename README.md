@@ -1,38 +1,111 @@
-#  Dynamic Color Clock Dashboard
+#  Productivity Dashboard
 
-A simple and visually appealing **productivity dashboard** built with React. It displays a live digital clock that updates every second and formats date/time using `date-fns`.
-
----
-
-##  Features
-
--  Live digital clock (updates every second)
--  Displays current date in a readable format
--  Modern and colorful UI design
--  Built with React functional components
--  Uses `date-fns` for date formatting
+A simple React application that displays the current date and time in real-time, updating every second. Built using React Hooks and `date-fns` for date formatting.
 
 ---
 
-##  Tech Stack
+##  Getting Started (Run Locally)
 
-- React
-- Vite
-- JavaScript (ES6+)
-- CSS3
-- date-fns
+Follow these steps to set up and run the project on your machine:
 
 ---
 
-##  Installation & Setup (Run Locally)
+### 1️⃣ Clone the Repository
 
-Follow these steps to run the project on your machine:
-
-### 1. Clone the repository
 ```bash
 git clone https://github.com/wanja-juma/Dynamic-Color-Clock.git
+cd productivity-dashboard
+```
 
-###  Display of the clock
+---
+
+### 2️⃣ Install Dependencies
+
+Make sure you have **Node.js (v16 or higher)** installed.
+
+Then run:
+
+```bash
+npm install
+```
+
+This will install all required packages, including:
+
+* React
+* date-fns
+
+---
+
+### 3️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+### 4️⃣ Open in Browser
+
+After running the command, open your browser and go to:
+
+```
+http://localhost:5173
+```
+
+You should see the **Productivity Dashboard** with a live updating clock.
+
+---
+
+##  Available Scripts
+
+```bash
+npm run dev      
+npm run build    
+npm run preview  
+```
+
+---
+
+##  Project Structure
+
+```bash
+src/
+├── App.jsx        
+├── App.css        
+└── main.jsx       
+```
+
+---
+
+##  Troubleshooting
+
+* **Port already in use?**
+
+  * Stop other running dev servers or change the port.
+
+* **Dependencies not installing?**
+
+  * Try deleting `node_modules` and `package-lock.json`, then run:
+
+    ```bash
+    npm install
+    ```
+
+---
+
+## Display Image
 
 src\assets\Screenshot 2026-05-03 170454.png
+
+
+##  Author
+
+Ruth Wanja Juma
+
+---
+
+##  License
+
+This project is open-source and available under the MIT License.
+
 
