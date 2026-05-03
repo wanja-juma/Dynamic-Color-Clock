@@ -30,4 +30,9 @@ Follow these steps to run the project on your machine:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/wanja-juma/Dynamic-Color-Clock.git
+
+###  Display of the clock
+
+src\assets\Screenshot 2026-05-03 170454.png
+
